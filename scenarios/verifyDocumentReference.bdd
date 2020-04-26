@@ -1,0 +1,9 @@
+SCENARIO: Verify Document/Reference Filter
+META-DATA: {"description": "Verify Document/Reference Filter"}
+    Given  Transaction page   
+    When   User uses Document/Reference Filter  
+END
+
+
+
+

@@ -1,0 +1,11 @@
+SCENARIO: Validating & Comparing Rep Sampling Activities Object Count from back end & UI data
+META-DATA: {"description": "Validating  & Comparing Rep Sampling Activities Object Count from back end & UI data"}
+    Given User should be connected to corresponding database & should be present on the Sunovion dashboard page  
+     When User should extract data from both back end & UI of all the objects
+    Then Compare the back end and UI count
+    
+END
+
+
+
+

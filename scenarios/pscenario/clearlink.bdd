@@ -1,0 +1,20 @@
+SCENARIO: To verify clear link functionality
+META-DATA: {"description": "To verify clear link functionality"}
+     Given user launches the Url  
+     When  user enter valid credentials and click on login button 
+     And   user is on home page & clicks on dashboard label
+     Then  user is on dasboard page
+     And user clicks on quarter button under rep sampling activities
+     And  user clicks back arrow
+     And  user clicks on any object link under the rep sampling activity
+     Then   user is on transaction page
+     Then   user applies filter & clicks on apply filter button
+     Then   click on clear link & verify all filters are cleared  
+    END
+
+
+
+
+
+
+

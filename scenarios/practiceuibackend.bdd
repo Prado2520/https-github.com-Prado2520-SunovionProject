@@ -1,0 +1,17 @@
+SCENARIO: To verify UI data with the database data
+META-DATA: {"description": "To verify UI data with the database data"}
+    Given User connected to database
+    Given  User clicks on url
+     When  User enters valid username, password & clicks on login button
+     Then  user is on homepage & clicks on dashboard link
+     Then  User is on dashboard page & clicks on quarter button under Rep Sampling Activites section
+     Then  User clicks on back arrow button until selected quarter appears
+     Then  extract count from the respective objects displayed besides the object name
+     Then  extract same quarter data from backend   
+    Then   compare the back end and UI count
+    
+END
+
+
+
+

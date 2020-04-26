@@ -1,0 +1,7 @@
+SCENARIO: Verify Count in Transaction Page
+META-DATA: {"description": "Verify Count in Transaction Page"}
+    Given   User present on transaction page
+    When   Select 50 rows under show rows
+    Then   Find number of rows displayed under the transaction table and compare the count 
+     
+END

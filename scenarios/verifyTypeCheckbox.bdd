@@ -1,0 +1,5 @@
+SCENARIO: Verify TypeCheckbox Filter
+META-DATA: {"description": "Verify TypeCheckbox Filter"}
+    Given   Transaction page TypeCheckbox Filter
+    When     User uses TypeCheckbox Filter  
+END

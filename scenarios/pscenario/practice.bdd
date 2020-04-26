@@ -1,0 +1,12 @@
+SCENARIO: To verify login functionality
+META-DATA: {"description": "To verify login functionality"}
+     Given launch the Url  
+     When user enter username password 
+     Then click on login button
+     Then  verify user is logged in successfully
+    
+END
+
+
+
+

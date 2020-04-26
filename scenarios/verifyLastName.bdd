@@ -1,0 +1,9 @@
+SCENARIO: Verify Last Name Filter
+META-DATA: {"description": "Verify Last Name Filter"}
+    Given User on transaction page   
+    When  User uses = filter 
+END
+
+
+
+

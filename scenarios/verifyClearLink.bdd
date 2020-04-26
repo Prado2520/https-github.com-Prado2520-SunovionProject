@@ -1,0 +1,10 @@
+SCENARIO: Verify functionality of clear link in transaction page
+META-DATA: {"description": "Verify functionality of clear link in transaction page"}
+    Given User clicks on base URL
+    When  User enters valid login details  
+    Then User clicks on Dashboard link
+    Then User clicks on any object links under Rep Sampling activites
+   
+END
+
+

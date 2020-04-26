@@ -1,0 +1,5 @@
+SCENARIO: Verify Date Filter
+META-DATA: {"description": "Verify Date Filter"}
+    Given  Transaction page Date Filter
+    When    User uses Date Filter  
+END

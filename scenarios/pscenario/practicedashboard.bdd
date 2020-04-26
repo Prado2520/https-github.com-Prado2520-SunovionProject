@@ -1,0 +1,12 @@
+SCENARIO: To verify dashboard page
+META-DATA: {"description": "To verify dashboard page"}
+     Given launch the Url  
+     When  enter valid credentials and click on login button 
+     Then  hover over sims3.0 beta label and click on dashboard label
+     Then  verify that user is present on dashboard page
+    
+END
+
+
+
+

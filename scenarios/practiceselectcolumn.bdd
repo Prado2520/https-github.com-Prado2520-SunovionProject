@@ -1,0 +1,13 @@
+SCENARIO: Select Column functionality under transaction page
+META-DATA: {"description": "Select Column functionality under transaction page"}
+Given user launches the Url  
+When  user enter valid credentials and click on login button 
+And   user is on home page & clicks on dashboard label
+And   user is on dasboard page & clicks on quarter button under rep sampling activities
+And   user clicks back arrow until quarter q1 & year 2019
+And   user clicks on any object link under the rep sampling activity
+Then  user is on transaction page
+And   click on select column
+And   check chekboxes and click on select button
+Then  verify selected columns are displayed under the transaction table
+END

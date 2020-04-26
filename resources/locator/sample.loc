@@ -1,0 +1,240 @@
+#Login_Page--------------------------------------------------------------------------------------------
+#Username
+login.username.text=xpath=//input[@id='ctl00_maincontent_Login1_UserName']
+#Password
+login.password.text=xpath=//input[@id='ctl00_maincontent_Login1_Password']
+#LoginButton
+login.loginbtn.text=xpath=//input[@id='ctl00_maincontent_Login1_LoginButton']
+#-------------------------------------------------------------------------------------------------------
+
+#InsideLoginPage----------------------------------------------------------------------------------------
+#Description Text
+sims.description.text=xpath=//*[contains(text(), "Knipper's Sample Compliance System")]
+sims.nav.text=xpath=//*[text()="SIMS 3.0 Beta"]
+homepage.label.text=xpath=//*[text()="SIMS 3.0 Beta"]
+#SIMS Menu Icon
+home.SIMS.link=xpath=//a[text()='SIMS 3.0 Beta']
+#Dashboard Link
+home.dashboard.link=xpath=//*[@id="ctl00_MainMenun92"]/td/table/tbody/tr/td/a
+
+#--------------------------------------------------------------------------------------------------------------
+#Dashboard Page
+
+#Welcome Text-------------------------------------------------------------------------------------------
+sims.quarterly.text=xpath=//h1[contains(text(),'Welcome')]
+dashboard.welcome.text=xpath= //h1[contains(text(),'Welcome')]
+#Monthly
+sims.monthly.text=xpath=(//*[text()='MONTHLY'])[3]
+dashboard.monthly.button=xpath=(//*[text()='MONTHLY'])[3]
+#Quarterly
+sims.quat.text=xpath=(//*[text()='QUARTERLY'])[3]
+dashboard.quarterly.button=xpath=(//*[text()='QUARTERLY'])[3]
+#Back arrow for navigation
+sims.bkarrow.text=xpath=//*[@id="cdk-accordion-child-10"]/div/div/div/kn-navigator/div/mat-icon[1]
+(//*[text()='arrow_back'])[3]
+sims.barrow.text=xpath=(//*[text()='arrow_back'])[4]
+#Rep Sampling Activities X path
+sims.dash.text=//*[contains(text(), "Rep Sampling Activities")]
+
+#Xpath of Sunovion Logo.-------------------------------------------------------------------------------------
+dash.logo.text=xpath=//*[@alt='Sims']
+
+
+#Clicking on links present on the Rep Sampling activity Page-------------------------------------------------------
+#CLick on Disbursement Link
+rep.dlink.text=xpath=//*[contains(text(),'Disbursements')]/following-sibling::h3/a
+rep.disbursement.link=xpath=//*[contains(text(),'Disbursements')]/following-sibling::h3/a
+#Click on Shipments Link
+rep.shiplink.text=xpath=//*[text()='Shipments']/following-sibling::h3/a
+rep.shipments.link=xpath=//*[text()='Shipments']/following-sibling::h3/a
+#Click on Shipment Acknowledgements Link
+rep.shipAklink.text=xpath=//*[text()='Shipment Acknowledgements']/following-sibling::h3/a
+rep.shipmentak.link=xpath=//*[text()='Shipment Acknowledgements']/following-sibling::h3/a
+#Click on Returns link
+rep.returnlink.text=xpath=//*[text()='Returns']/following-sibling::h3/a
+rep.returns.link=xpath=//*[text()='Returns']/following-sibling::h3/a
+#Click on Returns Acknowledgement link
+rep.returnAklink.text=xpath=//*[text()='Return Acknowledgements']/following-sibling::h3/a
+rep.returnak.link=xpath=//*[text()='Return Acknowledgements']/following-sibling::h3/a
+#Click on Transfers Out link
+rep.tranoutlink.text=xpath=//*[text()='Transfers Out']/following-sibling::h3/a
+rep.transferout.link=xpath=//*[text()='Transfers Out']/following-sibling::h3/a
+#Click on Transfer In link
+rep.traninlink.text=xpath=//*[text()='Transfers In']/following-sibling::h3/a
+rep.transferin.link=xpath=//*[text()='Transfers In']/following-sibling::h3/a
+#Click on Inventory link
+rep.invenlink.text=xpath=//*[text()='Inventory']/following-sibling::h3/a
+rep.inventory.link=xpath=//*[text()='Inventory']/following-sibling::h3/a
+#Click on Thefts link 
+rep.theftlink.text=xpath=//*[text()='Thefts']/following-sibling::h3/a
+rep.thefts.link=xpath=//*[text()='Thefts']/following-sibling::h3/a
+#Click on Losses link
+rep.losslink.text=xpath=//*[text()='Losses']/following-sibling::h3/a
+rep.losses.link=xpath=//*[text()='Losses']/following-sibling::h3/a
+#Click on Adjustments link
+rep.adjustlink.text=xpath=//*[text()='Adjustments']/following-sibling::h3/a
+rep.adjustments.link=xpath=//*[text()='Adjustments']/following-sibling::h3/a
+
+
+
+
+# Transaction Page-----------------------------------------------------------------------------------------------------------------
+rep.tlink.text=xpath=//*[contains(text(),'EXPORT TRANSACTIONS')]/../../div[2]/h1/span
+transaction.export.button=xpath=//*[contains(text(),'EXPORT TRANSACTIONS')]
+
+#Powered By x path
+#(/html/body/kn-root/kn-transactions-search/kn-sidenav/mat-sidenav-container/mat-sidenav-content/div[2]/div/main/div/div/div/kn-datatable/div/table/tbody/tr)[5]
+tran.poweredby.text=xpath=//*[contains(text() , 'Powered By')]
+-----------------------------------------------------------------------------------------------------------------------------------
+#Apply Filter X path
+tran.fil.text=xpath=//*[text()='Apply Filter(s)']
+transaction.filter.button=xpath=//*[text()='Apply Filter(s)']
+
+#Clear Link X path-----------------------------------------------------------------------------------------------------------------
+tran.clear.text=xpath=//*[text()='Clear']
+transaction.clear.link=xpath=//*[text()='Clear']
+
+#Next Button X Path---------------------------------------------------------------------------------------------------------------
+tran.next.text=xpath=//span[text()='NEXT']
+transaction.next.button=xpath=//span[text()='NEXT']
+#--------------------------------------------------------------------------------------------------------
+# Checkbox Locators
+
+#Disbursement Check box
+tran.dis.cbx=xpath=//*[@id='field-0-0']//following::label[text()='Disbursement']
+
+#Inventory Check box
+tran.in.cbx=xpath=//*[@id='field-0-2']//following::label[text()='Inventory']
+
+#Return Check box
+tran.ret.cbx=xpath=//*[@id='field-0-4']//following::label[text()='Return']
+
+#Return Acknowledgement Check box
+tran.reta.cbx=xpath=//*[@id='field-0-5']//following::label[text()='Return acknowledgement']
+
+#Shipment Check box
+tran.ship.cbx=xpath=//*[@id='field-0-6']//following::label[text()='Shipment']
+
+#Shipment Acknowledgement Check box
+tran.shipa.cbx=xpath=//*[@id='field-0-7']//following::label[text()='Shipment acknowledgement']
+
+#TrasnferIn Check box
+tran.tri.cbx=xpath=//*[@id='field-0-9']//following::label[text()='Transfer in']
+transaction.transferin.checkbox=xpath=//*[@id='field-0-9']//following::label[text()='Transfer in']
+
+#TrasnferOut Check box
+tran.tro.cbx=xpath=//input[@id="field-0-10"]//following::label[text()='Transfer out']
+transaction.transferout.checkbox=xpath=//input[@id="field-0-10"]//following::label[text()='Transfer out']
+#--------------------------------------------------------------------------------------------------------------
+#Select Column Locator
+tran.sc.link=xpath=//button[text()='Select Column(s)']
+transaction.selectcolumn.link=xpath=//button[text()='Select Column(s)']
+
+#-------------------------------------------------------------------------------------------------------------
+tran.ai.chckbx=xpath=//input[@value='accountID']
+tran.practitioner.chckbx=xpath=//input[@value='PRACTITIONER']
+tran.designation.chckbx=xpath=//input[@value='designation']
+tran.specialty.chckbx=xpath=//input[@value='specialty']
+tran.Address.chckbx=xpath=//input[@value='Address']
+tran.stateLicense.chckbx=xpath=//input[@value='stateLicense']
+tran.productCode.chckbx=xpath=//input[@value='productCode']
+tran.productName.chckbx=xpath=//input[@value='productName']
+tran.ndc.chckbx=xpath=//input[@value='ndc']
+tran.lotNumber.chckbx=xpath=//input[@value='lotNumber']
+tran.qty.chckbx=xpath=//input[@value='qty']
+tran.createdate.chckbx=xpath=//input[@value='createdate']
+tran.inventoryType.chckbx=xpath=//input[@value='inventoryType']
+tran.LINKINGSTATUSES.chckbx=xpath=//input[@value='LINKINGSTATUSES']
+tran.linkingDate.chckbx=xpath=//input[@value='linkingDate']
+tran.packingSlipReceivedDate.chckbx=xpath=//input[@value='packingSlipReceivedDate']
+tran.packingSlip.chckbx=xpath=//input[@value='packingSlip']
+tran.exceptionCode.chckbx=xpath=//input[@value='exceptionCode']
+tran.groupName.chckbx=xpath=//input[@value='groupName']
+tran.scandate.chckbx=xpath=//input[@value='scandate']
+tran.source.chckbx=xpath=//input[@value='source']
+tran.transferEmployeeName.chckbx=xpath=//input[@value='transferEmployeeName']
+tran.sel.btn=xpath=//button[text()=" SELECT "]
+tran.right.text=xpath=/html/body/kn-root/kn-transactions-search/kn-sidenav/mat-sidenav-container/mat-sidenav-content/div[2]/div/main/div/div/div/kn-datatable/div/table/tbody/tr[1]/td[1]/div/mat-icon
+
+
+#-------------------------------------------------------------------------------------------------------------
+#EmployeeLastName 
+tran.empLastName.text=xpath=(//*[@id="field-4"])[1]
+tran.empLastName.textbox=xpath=//input[@placeholder='Last Name']
+
+#EmployeeID Filter--------------------------------------------------------------------------------------------
+tran.empID.text=xpath=//*[@id="field-1"][@placeholder='ID']
+
+#EmployeeDocumentReference---------------------------------------------------------------------------------------
+tran.docref.text=xpath=//*[@id="field-0"][@placeholder]
+
+#TerritoryFilter-------------------------------------------------------------------------------------------------------
+tran.territory.text=xpath=//*[@id="field-3"][@placeholder]
+
+#Linking Date Range Filter------------------------------------------------------------------------------------------
+#FromDate
+tran.LDateRangeFrom.text=xpath=//*[@id="field-8"] [@placeholder="MM/DD/YYYY"]
+#ToDate
+tran.LDateRangeTo.text=xpath=//*[@id="field-8-end"] [@placeholder="MM/DD/YYYY"]
+
+#--------------------------------------------------------------------------------------------------------------------
+#Transaction Page Table data
+#Long xpath
+tran.table.data=xpath=//mat-sidenav-container/mat-sidenav-content/div[2]/div/main/div/div/div/kn-datatable/div/table/tbody/tr/td[8]
+#For one row
+tran.onerow.data=xpath=/html/body/kn-root/kn-transactions-search/kn-sidenav/mat-sidenav-container/mat-sidenav-content/div[2]/div/main/div/div/div/kn-datatable/div/table/tbody/tr[1]/td[8]/span
+#Optimized xpath for lastname column
+tran.lastnamecol.data=xpath=//table[@class='table full-width']/tbody/tr/td[8]
+
+#Optimized xpath for employeeid column
+tran.lastnamecol.data=xpath=//table[@class='table full-width']/tbody/tr/td[7]
+#No. of rows xpath
+tran.noofrows.data=xpath=//table[@class='table full-width']/tbody/tr
+
+#Account ID xpath in transaction table
+transaction.accountid.text=xpath=//span[@class='ng-star-inserted'][contains(.,'Account ID:')]
+#Practitioner xpath in transaction table
+transaction.practitioner.text=xpath=(//span[contains(.,'Practitioner First Name:')])[2]
+
+#-----------------------------------------------------------------------------------------------------------------------------
+#Show Rows X path
+#tran.showrow.text=xpath=//select[@class= 'form-control ng-valid ng-dirty ng-touched']/option[text()='1000']
+#Show row 1000
+tran.showrow1000.text=xpath=//option[text()= '1000']
+#Show row 50
+tran.showrow50.text=xpath=//option[text()= '50']
+
+
+
+
+
+
+#------------
+#EXPORT TRANSACTION BUTTON
+tran.exp.btn=xpath=//button[text()="EXPORT TRANSACTIONS"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

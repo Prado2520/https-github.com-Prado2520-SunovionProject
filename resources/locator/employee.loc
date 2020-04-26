@@ -1,0 +1,40 @@
+#Employee
+emp.employee.button=xpath=//*[text()='Employees ']
+
+#Employee Search
+emp.empsearch.button=xpath=//button[contains(.,'Employee Search')]
+
+# Add Employee
+emp.addemp.button=xpath=//button[contains(.,'Add Employee')]
+
+#Apply Filter
+emp.applyfilter.button=xpath=//button[@class='btn btn-secondary w-100 mb-2'][contains(.,'Apply Filter(s)')]
+
+#Clear
+emp.clear.link=xpath=//button[@class='btn btn-light'][contains(.,'Clear')]
+
+#SelectColumn
+emp.selectcolumn.link=xpath=//button[@class='btn btn-light'][contains(.,'Select Column(s)')]
+
+#Employeee Status
+#Active
+emp.active.chkbox=xpath=//input[@id="field-57-0"][@value = 'A']
+
+#LOA
+emp.loa.chkbox=xpath=//input[@id="field-57-1"][@value = 'L']
+
+#Terminated
+emp.terminated.chkbox=xpath=//input[@id="field-57-2"][@value = 'T']
+
+#employee
+#search by ID
+emp.id.txtbox=xpath=//input[@placeholder='ID']
+
+#Last Name
+emp.lastname.txtbox=xpath=//input[@placeholder='Last Name']
+
+#First Name
+emp.firstname.txtbox=xpath=//input[@placeholder='First Name']
+
+#Territory
+emp.territory.txtbox=xpath=//input[@placeholder='First Name']

@@ -1,0 +1,5 @@
+SCENARIO: Verify Territory Filter
+META-DATA: {"description": "Verify Territory Filter"}
+    Given  Transaction page for Territory Filter
+    When    User uses Territory Filter to filter records
+END

@@ -1,0 +1,9 @@
+SCENARIO: Verify EmployeeID Filter
+META-DATA: {"description": "Verify EmployeeID Filter"}
+    Given  User there on transaction page   
+    When   User uses specific employee id filter
+END
+
+
+
+

@@ -1,0 +1,11 @@
+SCENARIO: Valid Login
+META-DATA: {"description": "Valid login"}
+    Given User opens the Url  
+     When User enter valid 'super' and valid 'Welcome1' 
+    Then Verify dashboard page
+    Then  Verify count displayed in Rep Sampling Activity Page to that displayed in the Transaction Page
+END
+
+
+
+

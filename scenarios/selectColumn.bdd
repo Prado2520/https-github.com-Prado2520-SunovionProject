@@ -1,0 +1,5 @@
+SCENARIO: Verify select column functionality under transaction page
+META-DATA: {"description": "Verify select column functionality under transaction page"}
+    Given User currently on transaction page 
+    When Click on the Additional Columns & selecting checkboxes 
+ END

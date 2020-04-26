@@ -1,0 +1,10 @@
+SCENARIO: Verify Objects Links in Rep Sampling Page
+META-DATA: {"description": "Verify Objects Links in Rep Sampling Page"}
+    Given User clicks on the Url link
+    When Enter Login credentials 
+    Then User clicks on Dashboard link
+    Then Verify links under rep sampling
+END
+
+
+
