@@ -76,6 +76,23 @@
 
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
+		<!-- <dependency> <groupId>com.sikulix</groupId> <artifactId>sikulixapi</artifactId> 
+			<version>1.1.2</version> </dependency> -->
+		<!-- <dependency> <groupId>com.sikulix</groupId> <artifactId>sikulixapi</artifactId> 
+			<version>1.1.1</version> </dependency> -->
+		<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
+		<dependency>
+			<groupId>com.sikulix</groupId>
+			<artifactId>sikulixapi</artifactId>
+			<version>2.0.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-script -->
+
+
+
+
+
 		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
@@ -83,14 +100,23 @@
 			<version>8.2.2.jre8</version>
 			<scope>test</scope>
 		</dependency>
-		
-		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
+		</dependency>
 
-		
-
-
-
-
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.12</version>
+		</dependency>
 
 		<dependency>
 

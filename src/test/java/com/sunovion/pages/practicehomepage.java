@@ -22,6 +22,7 @@ public class practicehomepage extends WebDriverBaseTestPage<WebDriverTestPage> {
 	@QAFTestStep(description = "verify homepage")
 	public void homepageVerification() {
 		Validator.verifyTrue(CommonStep.verifyPresent("homepage.label.text"), "You are not on Home page", "Welcome to Homepage");
+		
 	}
 
 	@QAFTestStep(description = "click on dashboard link")
@@ -32,6 +33,7 @@ public class practicehomepage extends WebDriverBaseTestPage<WebDriverTestPage> {
 		action.moveToElement(element).perform();
 
 		String firstWindowHandle = new WebDriverTestBase().getDriver().getWindowHandle();
+		verifyDashboardLink();
 		CommonStep.click("home.dashboard.link");
 		Set<String> setWindowHandles = new WebDriverTestBase().getDriver().getWindowHandles();
 		System.out.println("--------------------window after click" + setWindowHandles);
@@ -45,7 +47,10 @@ public class practicehomepage extends WebDriverBaseTestPage<WebDriverTestPage> {
 	}
 	
 	
-	
+	@QAFTestStep (description = "verify dashboard link")
+	public void verifyDashboardLink() {
+		Validator.verifyTrue(CommonStep.verifyPresent("home.dashboard.link"), "Dashboard link verification failed", "Dashboard link verification passed");
+	}
 	
 
 	@Override

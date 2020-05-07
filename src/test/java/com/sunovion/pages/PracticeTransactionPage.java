@@ -1,5 +1,7 @@
 package com.sunovion.pages;
 
+import java.awt.AWTException;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 
@@ -16,9 +18,11 @@ import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
 import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
 import com.qmetry.qaf.automation.util.Reporter;
 import com.qmetry.qaf.automation.util.Validator;
+import com.sunovinon.steps.TimeStampScreenshot;
 
 
 public class PracticeTransactionPage extends WebDriverBaseTestPage<WebDriverTestPage>{
+	TimeStampScreenshot scrshot = new TimeStampScreenshot();
 	
 	
 	
@@ -112,7 +116,8 @@ public class PracticeTransactionPage extends WebDriverBaseTestPage<WebDriverTest
    public void clickCheckBoxAndSelectButton() {
 	   CommonStep.click("tran.ai.chckbx");
 	   CommonStep.click("tran.practitioner.chckbx");
-		try {
+	   waitForPageToLoad();
+	  	try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
@@ -120,6 +125,54 @@ public class PracticeTransactionPage extends WebDriverBaseTestPage<WebDriverTest
 		}
 		Reporter.logWithScreenShot("Additional Column Screenshot");
 		CommonStep.click("tran.sel.btn");   
+   }
+   
+   @QAFTestStep (description = "click on all checkbox")
+   public void clickAllCheckBox() throws InterruptedException {
+	 //  CommonStep.click("tran.ai.chckbx");
+	   CommonStep.click("tran.practitioner.chckbx");
+	   CommonStep.click("tran.designation.chckbx");
+	   CommonStep.click("tran.specialty.chckbx");
+	   CommonStep.click("tran.Address.chckbx");
+	   CommonStep.click("tran.stateLicense.chckbx");
+	   CommonStep.click("tran.productCode.chckbx");
+	   CommonStep.click("tran.productName.chckbx");
+	   Thread.sleep(3000);
+	   try {
+			scrshot.ExportTransaction();
+		} catch (AWTException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	   CommonStep.click("tran.ndc.chckbx");
+	   CommonStep.click("tran.lotNumber.chckbx");
+	   CommonStep.click("tran.qty.chckbx");
+	   CommonStep.click("tran.createdate.chckbx");
+	   CommonStep.click("tran.inventoryType.chckbx");
+	   CommonStep.click("tran.LINKINGSTATUSES.chckbx");
+	   CommonStep.click("tran.linkingDate.chckbx");
+	   CommonStep.click("tran.packingSlipReceivedDate.chckbx");
+	   CommonStep.click("tran.packingSlip.chckbx");
+	   CommonStep.click("tran.exceptionCode.chckbx");
+	   CommonStep.click("tran.groupName.chckbx");
+	   CommonStep.click("tran.scandate.chckbx");
+	   CommonStep.click("tran.source.chckbx");
+	   CommonStep.click("tran.transferEmployeeName.chckbx");
+	   Thread.sleep(3000);
+	   Reporter.logWithScreenShot("Additional Column Screenshot");
+	   try {
+		scrshot.ExportTransaction();
+	} catch (AWTException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		CommonStep.click("tran.sel.btn");
    }
    
    @QAFTestStep (description = "verify")
@@ -154,6 +207,12 @@ public class PracticeTransactionPage extends WebDriverBaseTestPage<WebDriverTest
 	    Reporter.logWithScreenShot("Screenshot");
 	
    }
+   
+   @QAFTestStep (description = "wait till page loads")
+   public void waitTillPageLoads() {
+	   waitForPageToLoad();
+   }
+   
    
 	
 

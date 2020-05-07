@@ -19,7 +19,7 @@ public class TimeStampScreenshot {
 		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 	    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 	    String ext = "jpg";
-	    File dir = new File("C:/Screenshots/EmployeeLastName");
+	    File dir = new File("C:/SunovionProject/Screenshots/EmployeeLastName");
 	    String nameL= "EmpLastname_";
 	    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 	    nameL = nameL.concat(name);
@@ -31,7 +31,7 @@ public class TimeStampScreenshot {
 		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 	    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 	    String ext = "jpg";
-	    File dir = new File("C:/Screenshots/EmployeeID");
+	    File dir = new File("C:/SunovionProject/Screenshots/EmployeeID");
 	    String EmployeeID = "EmployeeID_";
 	    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 	    EmployeeID = EmployeeID.concat(name);
@@ -42,7 +42,7 @@ public class TimeStampScreenshot {
 		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 	    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 	    String ext = "jpg";
-	    File dir = new File("C:/Screenshots/Login");
+	    File dir = new File("C:/SunovionProject/Screenshots/Login");
 	    String Login = "Login_";
 	    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 	    Login=Login.concat(name);
@@ -53,7 +53,7 @@ public class TimeStampScreenshot {
 		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 	    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 	    String ext = "jpg";
-	    File dir = new File("C:/Screenshots/Links");
+	    File dir = new File("C:/SunovionProject/Screenshots/Links");
 	    String Links = "Links_";
 	    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 	    Links=Links.concat(name);
@@ -64,7 +64,7 @@ public class TimeStampScreenshot {
 		Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 	    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 	    String ext = "jpg";
-	    File dir = new File("C:/Screenshots/ClearLinks");
+	    File dir = new File("C:/SunovionProject/Screenshots/ClearLinks");
 	    String ClearLinks = "ClearLinks_";
 	    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 	    ClearLinks = ClearLinks.concat(name);
@@ -75,7 +75,7 @@ public class TimeStampScreenshot {
 			Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 		    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 		    String ext = "jpg";
-		    File dir = new File("C:/Screenshots/SelectColumn");
+		    File dir = new File("C:/SunovionProject/Screenshots/SelectColumn");
 		    String SelectColumn = "SelectColumn_";
 		    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 		    SelectColumn = SelectColumn.concat(name);
@@ -86,7 +86,7 @@ public class TimeStampScreenshot {
 			Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 		    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 		    String ext = "jpg";
-		    File dir = new File("C:/Screenshots/DateFilter");
+		    File dir = new File("C:/SunovionProject/Screenshots/DateFilter");
 		    String DateFilter = "DateFilter_";
 		    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 		    DateFilter = DateFilter.concat(name);
@@ -97,7 +97,7 @@ public class TimeStampScreenshot {
 			Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 		    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 		    String ext = "jpg";
-		    File dir = new File("C:/Screenshots/Territory");
+		    File dir = new File("C:/SunovionProject/Screenshots/Territory");
 		    String Territory = "Territory_";
 		    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 		    Territory=Territory.concat(name);
@@ -109,7 +109,7 @@ public class TimeStampScreenshot {
 			Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 		    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 		    String ext = "jpg";
-		    File dir = new File("C:/Screenshots/DocumentReference");
+		    File dir = new File("C:/SunovionProject/Screenshots/DocumentReference");
 		    String DocumentReference = "DocumentReference_";
 		    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 		    DocumentReference=DocumentReference.concat(name);
@@ -120,7 +120,7 @@ public class TimeStampScreenshot {
 			Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 		    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 		    String ext = "jpg";
-		    File dir = new File("C:/Screenshots/TransitionTableCount");
+		    File dir = new File("C:/SunovionProject/Screenshots/TransitionTableCount");
 		    String TransitionTableCount = "TransitionTableCount_";
 		    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 		    TransitionTableCount=TransitionTableCount.concat(name);
@@ -132,11 +132,23 @@ public class TimeStampScreenshot {
 			Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
 		    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
 		    String ext = "jpg";
-		    File dir = new File("C:/Screenshots/Dashboard");
+		    File dir = new File("C:/SunovionProject/Screenshots/Dashboard");
 		    String Dashboard = "Dashboard_";
 		    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
 		    Dashboard=Dashboard.concat(name);
 		    ImageIO.write(screenFullImage, "jpg", new File(dir, Dashboard));
+
+	}
+		
+		public void ExportTransaction() throws AWTException, IOException {
+			Rectangle screenRect = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
+		    BufferedImage screenFullImage = new Robot().createScreenCapture(screenRect);
+		    String ext = "jpg";
+		    File dir = new File("C:/SunovionProject/Screenshots/ExportTransaction");
+		    String ExportTransaction = "ExportTransaction_";
+		    String name = String.format("%s.%s",RandomStringUtils.randomAlphanumeric(2), ext);
+		    ExportTransaction=ExportTransaction.concat(name);
+		    ImageIO.write(screenFullImage, "jpg", new File(dir, ExportTransaction));
 
 	}
 }

@@ -32,10 +32,30 @@ public class practicedashboardpage extends WebDriverBaseTestPage<WebDriverTestPa
 		CommonStep.click("dashboard.quarterly.button");
 	}
 	
+	@QAFTestStep (description = "Verify Quarter Button")
+	public void verifyQuarterButton() {
+		Validator.verifyTrue(CommonStep.verifyPresent("dashboard.quarterly.button"), "Quarterly button verification failed", "Quarterly button verified successfully");
+	}
+	
+	@QAFTestStep (description = "Verify Monthly Button")
+	public void verifyMonthlyButton() {
+		Validator.verifyTrue(CommonStep.verifyPresent("dashboard.monthly.button"), "Monthly button verification failed", "Monthly button verified successfully");
+	}
+	
 	@QAFTestStep (description = "Click on Monthly button")
 	public void clickMonthlyButton() {
 		CommonStep.click("dashboard.monthly.button");
 		
+	}
+	
+	@QAFTestStep (description = "Back arrow button")
+	public void backArrowButton() {
+		CommonStep.click("sims.bkarrow.text");
+	}
+	
+	@QAFTestStep (description = "Forward arrow button")
+	public void forwardArrowButton() {
+		CommonStep.click("dashboard.forwardarrow.text");
 	}
 	
 	@QAFTestStep (description = "Click on back arrow button quarter wise")

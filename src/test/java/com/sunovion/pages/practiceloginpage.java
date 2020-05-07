@@ -15,6 +15,7 @@ import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
 import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
 import com.qmetry.qaf.automation.util.Reporter;
 import com.qmetry.qaf.automation.util.Validator;
+import com.sunovinon.steps.TimeFrameSelection;
 import com.sunovinon.steps.TimeStampScreenshot;
 
 public class practiceloginpage extends WebDriverBaseTestPage<WebDriverTestPage> {
@@ -34,10 +35,10 @@ public class practiceloginpage extends WebDriverBaseTestPage<WebDriverTestPage> 
 		CommonStep.sendKeys(Password, "login.password.text");
 	}
 	
-	public void clickLoginButton() {
-		
+	public void clickLoginButton()  {
 		CommonStep.click("login.loginbtn.text");
 		driver.manage().window().maximize();
+		
 		
 		
 	}
