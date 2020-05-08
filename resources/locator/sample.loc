@@ -30,7 +30,7 @@ dashboard.monthly.button=xpath=(//*[text()='MONTHLY'])[3]
 sims.quat.text=xpath=(//*[text()='QUARTERLY'])[3]
 dashboard.quarterly.button=xpath=(//*[text()='QUARTERLY'])[3]
 #Back arrow for navigation
-sims.bkarrow.text=xpath=//*[@id="cdk-accordion-child-10"]/div/div/div/kn-navigator/div/mat-icon[1]
+sims.bkarrow.text=xpath=(//*[text()='arrow_back'])[4]
 (//*[text()='arrow_back'])[3]
 sims.barrow.text=xpath=(//*[text()='arrow_back'])[4]
 #Rep Sampling Activities X path
@@ -45,35 +45,35 @@ dash.logo.text=xpath=//*[@alt='Sims']
 rep.dlink.text=xpath=//*[contains(text(),'Disbursements')]/following-sibling::h3/a
 rep.disbursement.link=xpath=//*[contains(text(),'Disbursements')]/following-sibling::h3/a
 #Click on Shipments Link
-rep.shiplink.text=xpath=//*[text()='Shipments']/following-sibling::h3/a
-rep.shipments.link=xpath=//*[text()='Shipments']/following-sibling::h3/a
+rep.shiplink.text=xpath=//*[contains(text(),'Shipments ')]/following-sibling::h3/a
+rep.shipments.link=xpath=//*[contains(text(),'Shipments ')]/following-sibling::h3/a
 #Click on Shipment Acknowledgements Link
-rep.shipAklink.text=xpath=//*[text()='Shipment Acknowledgements']/following-sibling::h3/a
-rep.shipmentak.link=xpath=//*[text()='Shipment Acknowledgements']/following-sibling::h3/a
+rep.shipAklink.text=xpath=//*[contains(text(),'Shipment AOD')]/following-sibling::h3/a
+rep.shipmentak.link=xpath=//*[contains(text(),'Shipment AOD')]/following-sibling::h3/a
 #Click on Returns link
-rep.returnlink.text=xpath=//*[text()='Returns']/following-sibling::h3/a
-rep.returns.link=xpath=//*[text()='Returns']/following-sibling::h3/a
+rep.returnlink.text=xpath=//*[contains(text(),'Returns')]/following-sibling::h3/a
+rep.returns.link=xpath=//*[contains(text(),'Returns')]/following-sibling::h3/a
 #Click on Returns Acknowledgement link
-rep.returnAklink.text=xpath=//*[text()='Return Acknowledgements']/following-sibling::h3/a
-rep.returnak.link=xpath=//*[text()='Return Acknowledgements']/following-sibling::h3/a
+rep.returnAklink.text=xpath=(//*[contains(text(),'Return AOD')]/following-sibling::h3/a)[2]
+rep.returnak.link=xpath=(//*[contains(text(),'Return AOD')]/following-sibling::h3/a)[2]
 #Click on Transfers Out link
-rep.tranoutlink.text=xpath=//*[text()='Transfers Out']/following-sibling::h3/a
-rep.transferout.link=xpath=//*[text()='Transfers Out']/following-sibling::h3/a
+rep.tranoutlink.text=xpath=//*[contains(text(),'Transfers Out')]/following-sibling::h3/a
+rep.transferout.link=xpath=//*[contains(text(),'Transfers Out')]/following-sibling::h3/a
 #Click on Transfer In link
-rep.traninlink.text=xpath=//*[text()='Transfers In']/following-sibling::h3/a
-rep.transferin.link=xpath=//*[text()='Transfers In']/following-sibling::h3/a
+rep.traninlink.text=xpath=//*[contains(text(),'Transfers In')]/following-sibling::h3/a
+rep.transferin.link=xpath=//*[contains(text(),'Transfers In')]/following-sibling::h3/a
 #Click on Inventory link
-rep.invenlink.text=xpath=//*[text()='Inventory']/following-sibling::h3/a
-rep.inventory.link=xpath=//*[text()='Inventory']/following-sibling::h3/a
+rep.invenlink.text=xpath=(//*[contains(text(),'Inventory ')]/following-sibling::h3/a)[2]
+rep.inventory.link=xpath=(//*[contains(text(),'Inventory ')]/following-sibling::h3/a)[2]
 #Click on Thefts link 
-rep.theftlink.text=xpath=//*[text()='Thefts']/following-sibling::h3/a
-rep.thefts.link=xpath=//*[text()='Thefts']/following-sibling::h3/a
+rep.theftlink.text=xpath=//*[contains(text(),'Thefts ')]/following-sibling::h3/a
+rep.thefts.link=xpath=//*[contains(text(),'Thefts ')]/following-sibling::h3/a
 #Click on Losses link
-rep.losslink.text=xpath=//*[text()='Losses']/following-sibling::h3/a
-rep.losses.link=xpath=//*[text()='Losses']/following-sibling::h3/a
+rep.losslink.text=xpath=//*[contains(text(),'Losses ')]/following-sibling::h3/a
+rep.losses.link=xpath=//*[contains(text(),'Losses ')]/following-sibling::h3/a
 #Click on Adjustments link
-rep.adjustlink.text=xpath=//*[text()='Adjustments']/following-sibling::h3/a
-rep.adjustments.link=xpath=//*[text()='Adjustments']/following-sibling::h3/a
+rep.adjustlink.text=xpath=//*[contains(text(),'Adjustments ')]/following-sibling::h3/a
+rep.adjustments.link=xpath=//*[contains(text(),'Adjustments ')]/following-sibling::h3/a
 
 
 
