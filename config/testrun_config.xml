@@ -80,15 +80,15 @@ For any inquiry or need additional information, please contact support-qaf@infos
 
 </suite> -->
 
- <suite name="SIMS Automation" verbose="0">
+<!--  <suite name="SIMS Automation" verbose="0">
 	<test name="BDD Test" enabled="true">
+	<parameter name="driver.additional.capabilities" value="{driver.name=chromeDriver}"></parameter>
 	<parameter name="scenario.file.loc" value="scenarios/pscenario/practice.bdd"></parameter>
 		<classes>
 			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
 		</classes>
 	</test>
-
-</suite>
+</suite> -->
  
 
 <!-- <suite name="SIMS Automation" verbose="0">
@@ -232,11 +232,11 @@ For any inquiry or need additional information, please contact support-qaf@infos
 </suite> -->
 
 
-<!--  <suite name="SIMS Automation" verbose="0">
+ <suite name="SIMS Automation" verbose="0">
 	<test name="BDD Test" enabled="true">
 	<parameter name="scenario.file.loc" value="scenarios/practiceuibackend.bdd"></parameter>
 	<classes>
 			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
 		</classes>
 	</test>
-</suite> -->
+</suite>
