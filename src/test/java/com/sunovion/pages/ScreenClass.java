@@ -41,7 +41,7 @@ public class ScreenClass {
 		//screen.rightClick(Exceliconicon);
 		//screen.click(open);
 		//screen.click(Exceliconicon);
-		Thread.sleep(10000);
+		Thread.sleep(15000);
 		for(int i=0;i<=25;i++) {
 			screen.click(Sidearrow);
 			if(i==0||i==5||i==10||i==15||i==20||i==25) {
