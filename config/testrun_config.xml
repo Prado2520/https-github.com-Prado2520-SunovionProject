@@ -235,6 +235,11 @@ For any inquiry or need additional information, please contact support-qaf@infos
  <suite name="SIMS Automation" verbose="0">
 	<test name="BDD Test" enabled="true">
 	<parameter name="scenario.file.loc" value="scenarios/practiceuibackend.bdd"></parameter>
+	<parameter name="scenario.file.loc" value="scenarios/pscenario/clearlink.bdd"></parameter>
+	<parameter name="scenario.file.loc" value="scenarios/verifyTypeCheckbox.bdd"></parameter>
+	<parameter name="scenario.file.loc" value="scenarios/pscenario/employeelastname.bdd"></parameter>
+	<parameter name="scenario.file.loc" value="scenarios/verifyDocumentReference.bdd"></parameter>
+	<parameter name="scenario.file.loc" value="scenarios/export.bdd"></parameter>
 	<classes>
 			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
 		</classes>

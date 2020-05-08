@@ -127,7 +127,7 @@ public class PracticeTransactionPage extends WebDriverBaseTestPage<WebDriverTest
    
    @QAFTestStep (description = "click on all checkbox")
    public void clickAllCheckBox() throws InterruptedException {
-	 //  CommonStep.click("tran.ai.chckbx");
+	 CommonStep.click("tran.ai.chckbx");
 	   CommonStep.click("tran.practitioner.chckbx");
 	   CommonStep.click("tran.designation.chckbx");
 	   CommonStep.click("tran.specialty.chckbx");

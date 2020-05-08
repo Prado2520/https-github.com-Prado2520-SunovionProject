@@ -1,13 +1,17 @@
 SCENARIO: Export trasaction page data
 META-DATA: {"description": "Export transaction page data"}
 Given user launches the Url  
-When  user enter valid credentials and click on login button 
-And   user is on home page & clicks on dashboard label
-And   user is on dasboard page & clicks on quarter button under rep sampling activities
-And  user clicks back arrow until quarter q1 & year 2019
-And   user clicks on any object link under the rep sampling activity
-Then   user is on transaction page
-And  clicks on export transaction button 
+When user enter valid credentials and click on login button 
+And user is on home page & clicks on dashboard label
+And user is on dasboard page & clicks on quarter button under rep sampling activities
+And user clicks back arrow until quarter q1 & year 2019
+And user clicks on any object link under the rep sampling activity
+Then user is on transaction page
+And click on select column link and select columns
+And clicks on export transaction button 
+And open trnasaction excel sheet
+Then import excel data & verify all the columns are dislayed in the excel sheet data
+
 END
 
 

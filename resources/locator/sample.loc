@@ -110,13 +110,13 @@ tran.in.cbx=xpath=//*[@id='field-0-2']//following::label[text()='Inventory']
 tran.ret.cbx=xpath=//*[@id='field-0-4']//following::label[text()='Return']
 
 #Return Acknowledgement Check box
-tran.reta.cbx=xpath=//*[@id='field-0-5']//following::label[text()='Return acknowledgement']
+tran.reta.cbx=xpath=//*[@id='field-0-5']//following::label[text()='Return AOD']
 
 #Shipment Check box
 tran.ship.cbx=xpath=//*[@id='field-0-6']//following::label[text()='Shipment']
 
 #Shipment Acknowledgement Check box
-tran.shipa.cbx=xpath=//*[@id='field-0-7']//following::label[text()='Shipment acknowledgement']
+tran.shipa.cbx=xpath=//*[@id='field-0-7']//following::label[text()='Shipment AOD']
 
 #TrasnferIn Check box
 tran.tri.cbx=xpath=//*[@id='field-0-9']//following::label[text()='Transfer in']
@@ -135,7 +135,7 @@ tran.ai.chckbx=xpath=//input[@value='accountID']
 tran.practitioner.chckbx=xpath=//input[@value='PRACTITIONER']
 tran.designation.chckbx=xpath=//input[@value='designation']
 tran.specialty.chckbx=xpath=//input[@value='specialty']
-tran.Address.chckbx=xpath=//input[@value='Address']
+tran.Address.chckbx=xpath=//input[@value='ADDRESS']
 tran.stateLicense.chckbx=xpath=//input[@value='stateLicense']
 tran.productCode.chckbx=xpath=//input[@value='productCode']
 tran.productName.chckbx=xpath=//input[@value='productName']

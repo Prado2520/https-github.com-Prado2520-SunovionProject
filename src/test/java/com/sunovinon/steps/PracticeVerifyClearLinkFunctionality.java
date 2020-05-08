@@ -61,8 +61,9 @@ public class PracticeVerifyClearLinkFunctionality extends WebDriverTestCase {
 	}
 
 	@QAFTestStep(description = "user clicks on any object link under the rep sampling activity")
-	public void clickObjectLink() {
+	public void vcclickObjectLink() {
 		dpage.clickDisbursementLink();
+		//dpage.clickShipment_AcknowledgementsLink();
 
 	}
 
