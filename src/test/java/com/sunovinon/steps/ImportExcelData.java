@@ -6,20 +6,18 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.qmetry.qaf.automation.util.Reporter;
-import com.qmetry.qaf.automation.util.Validator;
-
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
-import com.qmetry.qaf.automation.ui.api.TestPage;
 import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
-import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
+import com.qmetry.qaf.automation.util.Reporter;
+import com.qmetry.qaf.automation.util.Validator;
 
 public class ImportExcelData extends WebDriverBaseTestPage<WebDriverTestPage> {
 	protected String filepath = "C:\\Users\\pjalapur\\Downloads";

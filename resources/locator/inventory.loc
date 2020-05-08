@@ -1,0 +1,7 @@
+#Transaction Detail: Inventory
+
+#inventory
+inventory.type.dropdown=xpath=//select[@id='field-27']
+inventory.id.text=xpath=//a[@href='/transactions/41854'][contains(.,'41854')]
+inventory.id.text=xpath=//a[contains(.,'41854')]
+inventory.ipage.text=xpath=//span[contains(.,'Transaction Detail: Inventory')]

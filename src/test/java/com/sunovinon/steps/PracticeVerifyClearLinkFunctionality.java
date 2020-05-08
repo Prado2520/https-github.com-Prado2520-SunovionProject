@@ -1,7 +1,5 @@
 package com.sunovinon.steps;
 
-import org.hamcrest.Matchers;
-
 import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;

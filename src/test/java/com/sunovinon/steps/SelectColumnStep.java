@@ -1,17 +1,9 @@
 package com.sunovinon.steps;
 
 import java.awt.AWTException;
-import java.awt.Rectangle;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
 
-import javax.imageio.ImageIO;
-
-import org.apache.commons.lang.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -20,16 +12,12 @@ import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
-import com.qmetry.qaf.automation.ui.api.TestPage;
 import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
-import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
 import com.qmetry.qaf.automation.util.Reporter;
 import com.sunovion.pages.PracticeTransactionPage;
 import com.sunovion.pages.practicedashboardpage;
 import com.sunovion.pages.practicehomepage;
 import com.sunovion.pages.practiceloginpage;
-
-import java.time.LocalDateTime;
 
 public class SelectColumnStep extends WebDriverBaseTestPage<WebDriverTestPage> {
 	practiceloginpage lpage = new practiceloginpage();

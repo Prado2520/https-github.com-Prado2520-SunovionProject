@@ -11,9 +11,7 @@ import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.WebDriverTestBase;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
-import com.qmetry.qaf.automation.ui.api.TestPage;
 import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
-import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
 import com.qmetry.qaf.automation.util.Validator;
 
 public class practicehomepage extends WebDriverBaseTestPage<WebDriverTestPage> {

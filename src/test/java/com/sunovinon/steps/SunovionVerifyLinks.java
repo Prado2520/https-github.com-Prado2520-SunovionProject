@@ -13,11 +13,9 @@ import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.WebDriverTestBase;
-import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
 import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
 import com.qmetry.qaf.automation.util.Reporter;
-import com.sunovion.pages.practiceloginpage;
 
 public class SunovionVerifyLinks extends WebDriverBaseTestPage<WebDriverTestPage>  {
      TimeStampScreenshot scrsht = new TimeStampScreenshot();

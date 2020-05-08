@@ -5,13 +5,6 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
-import com.qmetry.qaf.automation.ui.WebDriverTestCase;
-import com.qmetry.qaf.automation.ui.api.PageLocator;
-import com.qmetry.qaf.automation.ui.api.TestPage;
-import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
-import com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver;
-
 public class DatabaseConnectionPOC_rough   {
 
 	public static void main(String[] args) {

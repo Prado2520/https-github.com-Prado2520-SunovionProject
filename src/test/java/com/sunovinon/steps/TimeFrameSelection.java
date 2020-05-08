@@ -7,7 +7,6 @@ import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 import com.qmetry.qaf.automation.util.Reporter;
-import com.qmetry.qaf.automation.util.Validator;
 import com.sunovion.pages.PracticeTransactionPage;
 import com.sunovion.pages.practicedashboardpage;
 import com.sunovion.pages.practicehomepage;

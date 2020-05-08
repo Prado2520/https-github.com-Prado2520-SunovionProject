@@ -1,21 +1,13 @@
 package com.sunovinon.steps;
 
 import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
-import com.qmetry.qaf.automation.util.Reporter;
 import java.io.IOException;
 
 import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
 
-
-import org.sikuli.script.FindFailed;
-
-import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
+import com.qmetry.qaf.automation.util.Reporter;
 import com.sunovion.pages.PracticeTransactionPage;
 import com.sunovion.pages.ScreenClass;
 import com.sunovion.pages.practicedashboardpage;

@@ -7,12 +7,9 @@ import org.hamcrest.Matchers;
 
 import com.qmetry.qaf.automation.step.CommonStep;
 import com.qmetry.qaf.automation.step.QAFTestStep;
-
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
-
 import com.qmetry.qaf.automation.util.Validator;
-import com.sunovinon.steps.TimeStampScreenshot;
 import com.sunovion.pages.practiceloginpage;
  
 public class practiceSteps extends WebDriverTestCase {

@@ -1,11 +1,8 @@
 package com.sunovinon.steps;
 
 import java.awt.AWTException;
-
 import java.io.IOException;
 import java.util.Set;
-
-import javax.imageio.ImageIO;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
