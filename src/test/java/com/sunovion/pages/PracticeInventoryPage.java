@@ -25,8 +25,17 @@ public class PracticeInventoryPage extends WebDriverBaseTestPage<WebDriverTestPa
 		String Inventorypage="Transaction Detail: Inventory";
 		System.out.println(CommonStep.getText("inventory.ipage.text"));
 		CommonStep.getText("inventory.ipage.text");
-		Validator.verifyTrue(Inventorypage.equalsIgnoreCase(CommonStep.getText("inventory.ipage.text")), "Inventory page verification failed", "Inventory page verification passed");
-		
+		Validator.verifyTrue(Inventorypage.equalsIgnoreCase(CommonStep.getText("inventory.ipage.text")), "Inventory page verification failed", "Inventory page verification passed");		
+	}
+	
+	@QAFTestStep (description = "comment type dropdown")
+	public void commentTypeBox() {
+		CommonStep.sendKeys("Reconciliation Process", "inventory.commentype.dropdown");
+	}
+	
+	@QAFTestStep (description = "Description text box")
+	public void descriptionBox() {
+		CommonStep.sendKeys("Reconciliation comment", "inventory.description.textbox");
 	}
 
 	@Override
