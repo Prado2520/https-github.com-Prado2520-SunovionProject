@@ -97,7 +97,7 @@
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
-			<version>8.2.2.jre8</version>
+			<version>11.1.0.jre8-preview</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -129,7 +129,7 @@
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
 		<!-- <dependency> <groupId>com.microsoft.sqlserver</groupId> <artifactId>mssql-jdbc</artifactId> 
-			<version>8.2.2.jre8</version> <scope>test</scope> </dependency> -->
+			<version>11.1.0.jre8-preview</version> <scope>test</scope> </dependency> -->
 
 
 
